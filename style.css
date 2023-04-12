@@ -9,14 +9,14 @@
 }
 
 body{
-    background-color: black; 
+     /* background-color: black; 
     max-width: 100%;
-    max-height: 100%; 
+    max-height: 100%; */
    
 
     background: url("/screenshots/cake3.jpg");
     background-repeat: no-repeat;
-    background-size: 85rem 500px ;
+    background-size:  1280px 500px ;
 
    
     
@@ -57,7 +57,7 @@ nav ul {
 nav h3{
     display: flex;
     padding-right: 30rem;
-    font-size: 3rem;
+    font-size: 2rem;
     color: aliceblue;
 }
 .para1{
@@ -90,8 +90,8 @@ nav h3{
 
 .div1{
     margin-top: 100px;
-    width: 320px;
-    height: 300px;
+    width: 420px;
+    height: 280px;
     background-color: darksalmon;
 
 }
@@ -105,18 +105,21 @@ nav h3{
     color: aliceblue;
     text-align: center;
 }
+ /* section .div2{
+    background: url(/screenshots/cake6.jpg); 
+    background-repeat: no-repeat;
+    background-size: 200px 300px;
+} */
 /* .div2{
-    background: url(/screenshots/cake4.jpg); 
-    width: 50px;
-    height: 50px;
+    margin-top: 100px;
 } */
 .div2{
-    margin-top: 100px;
+    padding-top: 100px;
 }
 .div3{
     margin-top: 100px;
-    width: 320px;
-    height: 300px;
+    width: 420px;
+    height: 280px;
     background-color:chocolate; 
 }
 .div3 h3{
@@ -153,7 +156,7 @@ nav h3{
 }
 
 .second-para-div3{
-    width: 400px;
+    width: 410px;
     height: 200px;
     background-color:darksalmon;
 }
@@ -179,12 +182,45 @@ section{
 /* main ends here */
 
 /* footer starts here */
-.footer{
+.footer-img1{
+ padding-top: 25px;
+}
+
+.footer-img2{
+    padding-top: 25px;
+}
+
+.footer-para{
+    padding-top: 25px;
+    width: 350px;
+    height: 280px;
+    background-color: blueviolet;
+    
+}
+
+.footer-para-div{
+    padding-top: 25px;
+}
+.footer-para h3{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 30px;
+}
+.footer-para p{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 25px;
+}
+.footer-para1{
     display: flex;
-    justify-content:space-around;
+}
+
+/* .footer{
+    display: flex;
+    justify-content:space-around; 
     padding: 20px 20px;
     color: blue;
-}
+} */
 .footer1 h3{
     padding-bottom: 10px;
 }
@@ -196,6 +232,12 @@ section{
 }
 .footer4 h3{
     padding-bottom: 10px;
+}
+.footer-para2{
+    display: flex;
+    justify-content:space-around; 
+    padding: 20px 20px;
+    color: blue;
 }
 /* footer ends here */
 
