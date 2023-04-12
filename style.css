@@ -132,12 +132,14 @@ nav h3{
 
  .first-para{
     display:flex;
+    margin: 0;
 
 }
 .second-para-div1{
     width: 650px;
     height: 200px;
     background-color:chocolate;
+    margin: 0;
 }
 .second-para-div1 h3{
     padding-top: 40px;
@@ -167,6 +169,11 @@ nav h3{
 }
 .second-para{
     display: flex;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
 }
 
 /* main ends here */
